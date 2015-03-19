@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Ritchie Martori",
-  "license": "ISC",
+  "license": {
+    "name": "Dual MIT/StrongLoop",
+    "url": "https://github.com/strongloop/strong-pubsub-test/blob/master/LICENSE"
+  },
   "dependencies": {
     "chai": "^2.1.0",
     "lodash": "^3.3.1"
