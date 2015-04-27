@@ -3,7 +3,7 @@ var helpers = exports;
 helpers.defineClientTests = require('./lib/client-api');
 helpers.defineClientBehaviorTests = require('./lib/client-behavior');
 
-helpers.defineProxyBehaviorTests = require('./lib/proxy-behavior');
+helpers.defineBridgeBehaviorTests = require('./lib/bridge-behavior');
 
 helpers.getFreePort = require('./lib/free-port');
 helpers.waitForConnection = require('./lib/wait-for-connection');
