@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "author": "Ritchie Martori",
   "license": {
     "name": "Dual MIT/StrongLoop",
@@ -12,5 +15,8 @@
     "chai": "^2.1.0",
     "debug": "^2.1.3",
     "lodash": "^3.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
   }
 }
